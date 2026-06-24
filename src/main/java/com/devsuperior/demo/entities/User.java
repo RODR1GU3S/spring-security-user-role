@@ -87,7 +87,6 @@ public class User {
         if (o == null || getClass() != o.getClass()) return false;
 
         User user = (User) o;
-
         return Objects.equals(id, user.id);
     }
 
@@ -95,4 +94,5 @@ public class User {
     public int hashCode() {
         return id != null ? id.hashCode() : 0;
     }
+
 }
